@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main{
+public class Passwordgenerator{
     static String generatePassword(String name, String pan, String dob){
         String part1=name.substring(0,2).toUpperCase();
         String part2=pan.substring(0,3).toUpperCase();
